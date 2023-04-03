@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import "./InputContainer.scss";
 
-const InputContainer = () => {
-  const [email, setEmail] = useState("");
+const InputContainer = ({ setEmail, setName, setPhone }) => {
   const [isEmailValid, setIsEmailValid] = useState(true);
 
-  const [name, setName] = useState("");
   const [isNameValid, setIsNameValid] = useState(true);
 
-  const [phone, setPhone] = useState("");
   const [isPhoneValid, setIsPhoneValid] = useState(true);
 
   function handleEmailChange(event) {
@@ -54,7 +51,7 @@ const InputContainer = () => {
     border: !isNameValid && "2px solid red",
   };
 
-   const inputPhoneStyle = {
+  const inputPhoneStyle = {
     border: !isPhoneValid && "2px solid red",
   };
 

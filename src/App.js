@@ -13,7 +13,6 @@ function App() {
         <MainImage />
         <PersonContainer />
         <PostBlock />
-        <button className="sign-up-btn">Sign up</button>
       </div>
     </div>
   );

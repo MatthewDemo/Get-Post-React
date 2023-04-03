@@ -21,7 +21,7 @@ const PersonCard = ({ name, email, phone, position, photo }) => {
 
   return (
     <div className="person-card">
-      {photo.endsWith(".jpg") ? (
+      {photo.endsWith(".jpg") || photo.endsWith(".png") || photo.endsWith(".jpeg") || photo.endsWith(".svg") ? (
         <img className="character-photo" src={photo} alt="photo" />
       ) : (
         <img className="character-photo" src={defaultPersonIcon} alt="photo" />
