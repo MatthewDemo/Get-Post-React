@@ -1,0 +1,79 @@
+.person-card {
+  width: 370px;
+  height: 254px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 10px;
+  flex: 1 0 30%;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito";
+}
+
+.character-photo {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.character-name {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Nunito";
+  font-style: normal;
+}
+
+.character-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  font-family: "Nunito";
+}
+
+.character-details p {
+  margin: 0;
+}
+
+// .hover-text::before {
+//   content: attr(data-hover);
+//   position: absolute;
+//   top: calc(100% + 10px);
+//   left: 50%;
+//   transform: translateX(-50%);
+//   padding: 5px;
+//   background-color: rgba(0, 0, 0, 0.8);
+//   color: #fff;
+//   font-size: 14px;
+//   border-radius: 5px;
+//   white-space: nowrap;
+//   opacity: 0;
+//   pointer-events: none;
+//   transition: opacity 0.3s ease;
+// }
+
+// .hover-text:hover::before {
+//   opacity: 1;
+// }
+
+// .popup {
+//   position: fixed;
+//   z-index: 9999;
+//   padding: 5px;
+//   background-color: rgba(0, 0, 0, 0.8);
+//   color: #fff;
+//   font-size: 14px;
+//   border-radius: 5px;
+//   white-space: nowrap;
+// }

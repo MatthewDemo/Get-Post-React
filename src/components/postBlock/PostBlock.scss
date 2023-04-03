@@ -1,0 +1,97 @@
+.post-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.post-text-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 144px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+
+
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 43px;
+  margin-left: -16%;
+
+  h2 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+}
+
+.radioBtn {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+// .upload-photo-form {
+//   border: 1px solid #d0cfcf;
+//   border-radius: 4px;
+//   width: 380px;
+//   height: 54px;
+//   position: relative;
+//   margin-top: 47px;
+
+//   .upload-button {
+//     height: 54px;
+//     width: 83px;
+//     font-family: "Nunito";
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 26px;
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     color: rgba(0, 0, 0, 0.87);
+//   }
+
+//   .upload-text {
+//     font-family: 'Nunito';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 26px;
+//     display: flex;
+//     align-items: center;
+//     color: #7E7E7E;
+//     position: absolute;
+//     top: 0px;
+//     left: 100px;
+//   }
+// }
+
+
+

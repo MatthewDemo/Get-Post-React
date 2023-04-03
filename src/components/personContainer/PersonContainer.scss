@@ -1,0 +1,46 @@
+.person-container {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.person-text-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn {
+  background-color: #f4e041;
+  border-radius: 80px;
+  font-family: Nunito;
+  width: 100px;
+  height: 34px;
+  border: none;
+  cursor: pointer;
+  margin-top: 54px;
+  &:hover {
+    background: #ffe302;
+  }
+}
