@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./SelectContainer.scss";
 
-const SelectContainer = ({setSelectedRadio}) => {
+const SelectContainer = ({ setSelectedRadio }) => {
   const [positions, setPositions] = useState(null);
 
   const handleRadioChange = (event) => {
@@ -25,18 +25,19 @@ const SelectContainer = ({setSelectedRadio}) => {
   return (
     <div className="select-container">
       <h2>Select your position</h2>
-      {positions && positions.positions.map((position) => (
-        <label key={position.id}>
-          <input
-            type="radio"
-            name="option"
-            value={position.id}
-            className="radioBtn"
-            onChange={handleRadioChange}
-          />
-          {position.name}
-        </label>
-      ))}
+      {positions &&
+        positions.positions.map((position) => (
+          <label key={position.id}>
+            <input
+              type="radio"
+              name="option"
+              value={position.id}
+              className="radioBtn"
+              onChange={handleRadioChange}
+            />
+            {position.name}
+          </label>
+        ))}
     </div>
   );
 };

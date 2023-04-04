@@ -3,9 +3,7 @@ import "./InputContainer.scss";
 
 const InputContainer = ({ setEmail, setName, setPhone }) => {
   const [isEmailValid, setIsEmailValid] = useState(true);
-
   const [isNameValid, setIsNameValid] = useState(true);
-
   const [isPhoneValid, setIsPhoneValid] = useState(true);
 
   function handleEmailChange(event) {

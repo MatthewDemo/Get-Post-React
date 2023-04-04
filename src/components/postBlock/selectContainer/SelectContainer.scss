@@ -1,29 +1,19 @@
 .select-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    margin-top: 25px;
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: rgba(0, 0, 0, 0.87);
-    margin-top: 43px;
-    margin-left: -16%;
-  
-    h2 {
-      font-family: "Nunito";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-      color: rgba(0, 0, 0, 0.87);
-    }
-  }
-  
-  .radioBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 43px;
+  margin-left: -16%;
+
+  h2 {
     font-family: "Nunito";
     font-style: normal;
     font-weight: 400;
@@ -31,4 +21,13 @@
     line-height: 26px;
     color: rgba(0, 0, 0, 0.87);
   }
-  
+}
+
+.radioBtn {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+}

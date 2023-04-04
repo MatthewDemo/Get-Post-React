@@ -44,3 +44,22 @@ h1 {
     background: #ffe302;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-container > * {
+    margin-bottom: 20px;
+  }
+
+  .cards-container > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .person-container {
+    margin-top: 80px;
+  }
+}

@@ -22,7 +22,7 @@ export function scrollToSignUp() {
 const Header = () => {
   return (
     <div className="header-container">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className="header-logo" />
       <div className="buttons-header-container">
         <button className="headerBtn" id="users-button" onClick={scrollToUsers}>
           Users

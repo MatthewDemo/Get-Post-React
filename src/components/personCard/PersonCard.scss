@@ -45,3 +45,28 @@
 .character-details p {
   margin: 0;
 }
+
+@media (min-width: 360px) {
+  .person-card {
+    width: 328px;
+    height: 254px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .person-card {
+    width: calc(50% - 60px);
+    height: 254px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .person-card {
+    width: 282px;
+    height: 254px;
+    margin: 10px;
+  }
+}
