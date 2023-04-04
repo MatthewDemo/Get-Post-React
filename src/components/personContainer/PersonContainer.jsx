@@ -27,7 +27,7 @@ const PersonContainer = () => {
   return (
     <div className="person-container" id="person-container">
       <div className="person-text-container">
-        <h1>Working with GET request</h1>
+        <h1 className="get-text">Working with GET request</h1>
       </div>
       <div className="cards-container">
         {visibleUsers.map((user) => (
