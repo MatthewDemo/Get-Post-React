@@ -14,7 +14,7 @@ export function scrollToSignUp() {
   const signUpContainer = document.getElementById("post-text-container");
   const signUpContainerTop = signUpContainer.getBoundingClientRect().top;
   window.scrollTo({
-    top: signUpContainerTop,
+    top: signUpContainerTop + 10,
     behavior: "smooth",
   });
 }

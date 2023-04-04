@@ -8,7 +8,6 @@ const SubmitButton = ({
   phone,
   selectedRadioAsNumber,
   selectedFile,
-  successRef,
 }) => {
   const [isFormValid, setIsFormValid] = useState(false);
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -69,6 +68,9 @@ const SubmitButton = ({
         if (data.success) {
           console.log("SUCCESS");
           setIsFormSubmitted(true);
+          setTimeout(() => {
+            window.scrollTo(0, document.body.scrollHeight);
+          }, 3000);
         } else {
           console.log("FAILURED");
         }
