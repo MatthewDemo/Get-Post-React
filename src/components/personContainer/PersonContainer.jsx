@@ -14,15 +14,14 @@ const PersonContainer = () => {
   useEffect(() => {
     async function fetchUsers() {
       const response = await fetch(
-        "https://frontend-test-assignment-api.abz.agency/api/v1/users?page=1&count=48"
+        "https://frontend-test-assignment-api.abz.agency/api/v1/users?page=1&count=100"
       );
       const data = await response.json();
       setUsers(data.users);
-      setVisibleUsers(data.users.slice(0, 6))
+      setVisibleUsers(data.users.slice(0, 6));
     }
-    
+
     fetchUsers();
-    
   }, []);
 
   return (
@@ -43,7 +42,9 @@ const PersonContainer = () => {
         ))}
       </div>
 
-      <button className="btn" onClick={showMore}>Show more</button>
+      <button className="btn" onClick={showMore}>
+        Show more
+      </button>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import "./App.scss";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Header from "./components/header/Header";
 import MainImage from "./components/mainImage/MainImage";
 import PersonContainer from "./components/personContainer/PersonContainer";

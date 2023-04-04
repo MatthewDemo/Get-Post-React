@@ -1,8 +1,7 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import "./ImageUploader.scss";
 
-function ImageUploader() {
-  const [selectedFile, setSelectedFile] = useState(null);
+function ImageUploader({ selectedFile, setSelectedFile }) {
 
   const fileInputRef = useRef(null);
 
@@ -22,7 +21,9 @@ function ImageUploader() {
         Upload
       </button>
       <h2 className="upload-text">
-        {selectedFile ? selectedFile.name.slice(0, 30) + '...' : "Upload your photo"}
+        {selectedFile
+          ? selectedFile.name.slice(0, 30) + "..."
+          : "Upload your photo"}
       </h2>
       <input
         type="file"

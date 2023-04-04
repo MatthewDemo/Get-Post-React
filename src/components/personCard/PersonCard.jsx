@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./PersonCard.scss";
 import defaultPersonIcon from "../../assets/images/person-icon.svg";
 import Tooltip from "./popup/Tooltip";
@@ -21,10 +21,17 @@ const PersonCard = ({ name, email, phone, position, photo }) => {
 
   return (
     <div className="person-card">
-      {photo.endsWith(".jpg") || photo.endsWith(".png") || photo.endsWith(".jpeg") || photo.endsWith(".svg") ? (
-        <img className="character-photo" src={photo} alt="photo" />
+      {photo.endsWith(".jpg") ||
+      photo.endsWith(".png") ||
+      photo.endsWith(".jpeg") ||
+      photo.endsWith(".svg") ? (
+        <img className="character-photo" src={photo} alt="User" />
       ) : (
-        <img className="character-photo" src={defaultPersonIcon} alt="photo" />
+        <img
+          className="character-photo"
+          src={defaultPersonIcon}
+          alt="User"
+        />
       )}
       {name.length < 30 ? (
         <p className="character-name">{name}</p>

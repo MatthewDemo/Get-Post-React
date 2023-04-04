@@ -45,35 +45,3 @@
 .character-details p {
   margin: 0;
 }
-
-// .hover-text::before {
-//   content: attr(data-hover);
-//   position: absolute;
-//   top: calc(100% + 10px);
-//   left: 50%;
-//   transform: translateX(-50%);
-//   padding: 5px;
-//   background-color: rgba(0, 0, 0, 0.8);
-//   color: #fff;
-//   font-size: 14px;
-//   border-radius: 5px;
-//   white-space: nowrap;
-//   opacity: 0;
-//   pointer-events: none;
-//   transition: opacity 0.3s ease;
-// }
-
-// .hover-text:hover::before {
-//   opacity: 1;
-// }
-
-// .popup {
-//   position: fixed;
-//   z-index: 9999;
-//   padding: 5px;
-//   background-color: rgba(0, 0, 0, 0.8);
-//   color: #fff;
-//   font-size: 14px;
-//   border-radius: 5px;
-//   white-space: nowrap;
-// }
